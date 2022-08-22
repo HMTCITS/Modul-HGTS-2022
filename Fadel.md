@@ -2,11 +2,17 @@
 
 #### Youtube
 
-<img src="https://www.versionmuseum.com/images/websites/youtube-website/webp/youtube-website%5E2005%5Ehomepage.webp" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="500">
+##### 2005
 
-<img src="https://www.versionmuseum.com/images/websites/youtube-website/webp/youtube-website%5E2005%5Ehomepage.webp" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="500">
+<img src="https://www.versionmuseum.com/images/websites/youtube-website/webp/youtube-website%5E2005%5Ehomepage.webp" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="700">
 
-<img src="https://www.versionmuseum.com/images/websites/youtube-website/webp/youtube-website%5E2005%5Ehomepage.webp" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="500">
+##### 2012
+
+<img src="https://www.versionmuseum.com/images/websites/youtube-website/webp/youtube-website%5E2012%5Ehomepage.webp" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="700">
+
+##### 2019
+
+<img src="https://www.versionmuseum.com/images/websites/youtube-website/webp/youtube-website%5E2019%5Ehomepage.webp" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="700">
 
 Referensi: https://www.versionmuseum.com/
 
@@ -14,19 +20,19 @@ Referensi: https://www.versionmuseum.com/
 
 Notepad++
 
-[ Gambar ]
+<img src="https://notepad-plus-plus.org/images/logo.svg" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="200">
 
 Visual Studio Code
 
-[ Gambar ]
+<img src="https://storage.googleapis.com/kotakode-prod-public/images/8b5b4ffa-a442-40b0-8e98-01a8c967a1bf-vscode.png" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="200">
 
 Sublime Text
 
-[ Gambar ]
+<img src="https://cdn.worldvectorlogo.com/logos/sublime-text.svg" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="200">
 
 Atom
 
-[ Gambar ]
+<img src="https://www.nesabamedia.com/wp-content/uploads/2019/08/Atom-Logo-1.png" alt="Gambar-Youtube-2005" title="Gambar-Youtube-2005" width="200">
 
 # Kerangka HTML (19)
 
