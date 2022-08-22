@@ -95,9 +95,9 @@ Menentukan tombol pintas untuk mengaktifkan/memfokuskan elemen. Shortcut pada se
     <li>Firefox: [ALT] [SHIFT] + <em>accesskey</em></li>
 </ul>
 
-    <a href="https://www.youtube.com/" accesskey="c">Contoh</a>
+    <a href="https://www.youtube.com/" accesskey="c">Youtube</a>
 
-<a href="https://www.youtube.com/" accesskey="c">Contoh</a><br>
+<a href="https://www.youtube.com/" accesskey="c" target="_blank">Youtube</a>
 
 ###### Class
 
