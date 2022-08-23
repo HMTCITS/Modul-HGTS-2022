@@ -1,3 +1,49 @@
+# Teknologi Informasi (4-8)
+
+<ul type="disc">
+    <li>Software Development</li>
+    <ul type="circle">
+        <li>Apple Development</li>
+        <li>Web Development</li>
+        <ul type="square">
+            <li>Front-End</li>
+            <li>Fullstack</li>
+            <li>Back-End</li>
+            <li>Dev Ops</li>
+        </ul>
+        <li>Android Development</li>
+        <li>Games Development</li>
+        <li>Dekstop Development</li>
+        <li>Embeded Development</li>
+        <li>Cloud Development</li>
+    </ul>
+    <li>Games</li>
+    <li>Keamanan Siber</li>
+    <li>Sistem Informasi</li>
+    <li>Bahasa Pemograman</li>
+    <li>Jaringan Komputer</li>
+    <li>Multimedia</li>
+    <li>Algoritma & Teori</li>
+    <li>UI & UX</li>
+    <li>Internet of Things</li>
+    <li>Data Scientist</li>
+    <li>Kecerdasan Buatan (AI)</li>
+</ul>
+
+# HTML CSS & JS (15)
+
+### HTML (Hyper Text Markup Language)
+
+HTML adalah bahasa markup yang digunakan untuk membuat Halaman web. HTML adalah markup yang digunakan untuk mendefinisikan struktur halaman web. Seperti misalnya membuat elemen paragraf, gambar, link dan lain sebagainya. HTML tersusun atas elemen-elemen HTML. Elemen html didefinisikan dengan tag-tag HTML.
+
+### CSS (Cascading Style Sheet)
+
+CSS adalah bahasa yang digunakan untuk mengatur tampilan elemen-elemen HTML. Dengan CSS, kita dapat memberikan warna background, border, mengatur posisi elemen, ukuran font dan lain sebagainya.
+
+### JS (JavaScript)
+
+Javascript adalah bahasa pemrograman (berjalan pada web browser) yang digunakan untuk membuat halaman web yang lebih interaktif. Beberapa fungsi yang bisa anda tambahkan menggunakan Javascript seperti misalnya menampilkan elemen tertentu hanya pada browser tertentu saja, membuat fitur yang memungkinkan pengguna untuk dapat menyesuaikan ukuran font pada blog, dan lain sebagainya.
+
 # Evolusi Website (16)
 
 #### Youtube
@@ -73,6 +119,89 @@ Contoh
 
     </html>
 
+# Bagian `<head>`
+
+### Judul Halaman
+
+Tag `<title>` mendefinisikan judul dokumen. Judul harus berupa teks saja, dan ditampilkan di bilah judul browser atau di tab halaman.
+
+    <title></title>
+
+### CSS
+
+Atribut HTML `<style>` digunakan untuk menambahkan CSS ke elemen, seperti warna, font, ukuran, dan lainnya.
+
+    <style></style>
+
+### JavaScript
+
+Tag `<script>` digunakan untuk menyematkan script client-side. Tag `<script>` juga dapat berisi pernyataan skrip, atau menunjuk ke file skrip eksternal melalui atribut src.
+
+    <script></script>
+
+### Meta
+
+Tag `<meta>` mendefinisikan metadata tentang dokumen HTML.
+
+Tag `<meta>` selalu masuk ke dalam elemen `<head>`, dan biasanya digunakan untuk menentukan set karakter, deskripsi halaman, kata kunci, penulis dokumen, dan pengaturan viewport.
+
+    <meta></meta>
+
+# Meta(21)
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="belajar buat web">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Kurnia Cahya">
+</head>
+
+# Bagian <body> (22)
+
+### Text
+
+    <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>, ...
+
+### Pendukung / Atribut Text
+
+    <br>, <hr>, <em>, <strong>, ...
+
+### Gambar
+
+    <img>
+
+### Hyperlink
+
+    <a>
+
+### List (Bullets & Numbering)
+
+    <ul>, <ol>, <li>, <dl>, <dt>, <dd>
+
+# Bagian <body> (23)
+
+### Tabel
+
+    <table>, <thead>, <tbody>, ...
+
+### Form
+
+    <form>, <input>, <select>, <button>, ...
+
+### Script
+
+    <script>
+
+### Object
+
+    <object>
+
+### Grouping
+
+    <div>, <span>
+
 # (24)
 
 ### Komentar
@@ -85,7 +214,7 @@ Contoh
 
 ### Atribut Global
 
-###### Accesskey
+#### Accesskey
 
 Menentukan tombol pintas untuk mengaktifkan/memfokuskan elemen. Shortcut pada setiap browser berbeda.
 
@@ -99,7 +228,7 @@ Menentukan tombol pintas untuk mengaktifkan/memfokuskan elemen. Shortcut pada se
 
 <a href="https://www.youtube.com/" accesskey="c" target="_blank">Youtube</a>
 
-###### Class
+#### Class
 
 Menentukan satu atau lebih nama kelas untuk suatu elemen (mengacu pada class dalam tag style).
 
@@ -123,32 +252,32 @@ Menentukan satu atau lebih nama kelas untuk suatu elemen (mengacu pada class dal
     </body>
     </html>
 
-###### Id
+#### Id
 
 Menentukan id dari suatu elemen.
 
     <label for="nama">Nama:</label>
     <input id="nama">
 
-###### Dir
+#### Dir
 
 Menentukan arah teks untuk konten dalam elemen.
 
     <element dir="ltr|rtl|auto">
 
-###### Lang
+#### Lang
 
 Menentukan bahasa dari konten elemen.
 
     <p lang="en">This is a paragraph.</p>
 
-###### Style
+#### Style
 
 Menentukan style CSS sebaris untuk sebuah elemen.
 
     <h1 style="color:blue;text-align:center;">This is a header</h1>
 
-###### Tabindex
+#### Tabindex
 
 Menentukan urutan elemen saat menekan tombol "TAB". Untuk ke element selanjutnya klik "TAB", untuk ke elemnt sebelumnya klik "SHIFT+TAB".
 
@@ -156,12 +285,38 @@ Menentukan urutan elemen saat menekan tombol "TAB". Untuk ke element selanjutnya
     <div tabindex="2">Google</div><br>
     <div tabindex="1">Microsoft</div>
 
-###### Title
+#### Title
 
 Menentukan informasi tambahan tentang suatu elemen. Gerakkan mouse ke arah title dan tunggu hingga nilai dari title muncul.
 
     <p><abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
     <p title="Free Web tutorials">W3Schools.com</p>
+
+# Text `<html>` (26)
+
+#### Bold
+
+    <b></b>
+    <strong></strong>
+
+#### Italic
+
+    <i></i>
+    <em></em>
+
+#### Underline
+
+    <u></u>
+    <ins></ins>
+
+# Heading `<html>` (27)
+
+    <h1>ini adalah heading 1</h1>
+    <h2>ini adalah heading 2</h2>
+    <h3>ini adalah heading 3</h3>
+    <h4>ini adalah heading 4</h4>
+    <h5>ini adalah heading 5</h5>
+    <h6>ini adalah heading 6</h6>
 
 # List(28)
 
