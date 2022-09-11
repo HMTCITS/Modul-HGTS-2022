@@ -565,7 +565,7 @@ Berikut ini contoh pembuatan form yang berisi beberapa input type:
 
 Terdapat beberapa character entities pada html, karakter tersebut bisa dilihat pada https://www.w3schools.com/html/html_entities.asp.
 
-# CSS(35-37)
+# CSS(35-39)
 
 CSS atau Cascading Style Sheet merupakan format untuk tata letak halaman web. CSS mengatur bagaimana elemen HTML ditampilkan di layar, dengan kata lain CSS mengatur <em>style</em> atau gaya pada halaman website. CSS dapat mengatur warna elemen, ukuran elemen, posisi elemen, dan lain-lain.
 
@@ -591,6 +591,37 @@ Source = https://www.versionmuseum.com/
 - Dibuat terpisah dengan file HTML
 - Bertujuan untuk memisahkan konten dan style
 
-Satu CSS dapat digunakan untuk banyak halaman HTML
+Satu CSS dapat digunakan untuk banyak halaman HTML.
 
 <img src="Assets/CSS.png" alt="Evolusi-CSS" title="Evolusi-CSS" width="500">
+
+Satu halaman HTML dapat terlihat berbeda jika menggunakan CSS yang berbeda, contohnya dapat dilihat di <em>url</em> berikut: http://www.csszengarden.com/.
+
+### Anatomi CSS
+
+```css
+selector {
+  property: value;
+}
+```
+
+Contoh,
+
+```css
+h1 {
+  color: blue;
+}
+```
+
+Contoh dengan properti yang lebih banyak,
+
+```css
+h1 {
+  font-family: "Fredooka One", Arial;
+  text-align: center;
+  font-size: blue;
+  color: red;
+}
+```
+
+CSS memiliki banyak properti, dan masing-masing properti memiliki banyak value. Berikut ini referensi masing-masing properti dan valuenya: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference.
