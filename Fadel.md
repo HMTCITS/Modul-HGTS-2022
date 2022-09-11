@@ -263,7 +263,15 @@ Menentukan id dari suatu elemen.
 
 Menentukan arah teks untuk konten dalam elemen.
 
-    <element dir="ltr|rtl|auto">
+    <element dir="ltr"|"rtl"|"auto">
+
+Terdapat beberapa nilai dari atribut dir yaitu
+
+<ul>
+<li> ltr : left to right atau dari kiri ke kanan
+<li> rtl : right to left atau dari kanan ke kiri
+<li> auto : tergantung pada arah konten pada halaman tersebut
+</ul>
 
 #### Lang
 
@@ -365,3 +373,194 @@ Img merupakan salah satu tag HTML untuk menyematkan gambar di halaman web.
     <img src="image.jpg" alt="Kalimat Alternatif" title="Judul" width="500" height="333">
 
 Nilai pada atribut `src` berupa path local atau link ke gambar yang dituju. Nilai pada atribut `alt` merupakan kalimat pengganti ketika gambar yang dituju tidak ada. Nilai pada atribut `title` akan muncul ketika kursor diarahkan ke gambar. Sedangkan `height` dan `width` merupakan ukuran gambar.
+
+# Table(30-31)
+
+Table merupakan salah satu tag HTML untuk mengatur data ke dalam dalam tabel atau berbentuk baris dan kolom.
+
+    <table>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+        </tr>
+    </table>
+
+<table>
+    <tr>
+        <td>Baris 1, Kolom 1</td>
+        <td>Baris 1, Kolom 2</td>
+    </tr>
+    <tr>
+        <td>Baris 2, Kolom 1</td>
+        <td>Baris 2, Kolom 2</td>
+    </tr>
+</table>
+
+### Contoh penggunaan atribut colspan pada tabel,
+
+    <table>
+        <tr>
+            <th>Nama Kegiatan</th>
+            <th colspan="2">Tanggal Kegiatan</th>
+        </tr>
+        <tr>
+            <td>HMTC Goes To School</td>
+            <td>23 September</td>
+            <td>24 September</td>
+        </tr>
+    </table>
+
+<table>
+    <tr>
+        <th>Nama Kegiatan</th>
+        <th colspan="2">Tanggal Kegiatan</th>
+    </tr>
+    <tr>
+        <td>HMTC Goes To School</td>
+        <td>23 September</td>
+        <td>24 September</td>
+    </tr>
+</table>
+
+### Contoh penggunaan atribut rowspan pada tabel,
+
+    <table>
+        <tr>
+            <th>Nama Kegiatan</th>
+            <td>HMTC Goes To School</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Tanggal Kegiatan</th>
+            <td>23 September</td>
+        </tr>
+        <tr>
+            <td>24 September</td>
+        </tr>
+    </table>
+
+<table>
+    <tr>
+        <th>Nama Kegiatan</th>
+        <td>HMTC Goes To School</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Tanggal Kegiatan</th>
+        <td>23 September</td>
+    </tr>
+    <tr>
+        <td>24 September</td>
+    </tr>
+</table>
+
+# Form(32-33)
+
+Form pada HTML digunakan untuk mengumpulkan input user. Input ini biasa nya dikirim ke server untuk diproses
+
+    <form action="" method=""></form>
+
+- Atribut `action` pada form digunakan untuk menentukan ke mana data harus dikirim saat form disubmit.
+- Atribut method bernilai metode yang digunakan untuk mengirim data. Atribut ini hanya bernilai:
+  - "GET" = digunakan untuk meminta data kepada server dari database/sumber daya tertentu untuk diproses.
+  - "POST" = digunakan untuk mengirim data ke server untuk disimpan pada database/sumber daya tertentu.
+
+Berikut ini contoh pembuatan form yang berisi beberapa input type:
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <style>
+        td,
+        table,
+        ul {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .form-contoh {
+            border: black solid 1px;
+            padding: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <form action="" class="form-contoh">
+        <table cellspacing="10">
+            <tr>
+            <td>
+                <label for="text"><b>Text</b></label>
+            </td>
+            <td><input type="text" id="text" /></td>
+            </tr>
+            <tr>
+            <td>
+                <label for="password"><b>Password</b></label>
+            </td>
+            <td><input type="password" id="password" /></td>
+            </tr>
+            <tr>
+            <td><b>Radio</b></td>
+            <td>
+                <input type="radio" name="radio 1" id="radio 1" />
+                <label for="radio 1">Radio 1</label>
+                <br />
+                <input type="radio" name="radio 1" id="radio 2" />
+                <label for="radio 2">Radio 2</label>
+            </td>
+            </tr>
+            <tr>
+            <td><b>Checkbox</b></td>
+            <td>
+                <input type="checkbox" id="checkbox 1" />
+                <label for="checkbox 1">Radio 1</label>
+                <br />
+                <input type="checkbox" id="checkbox 2" />
+                <label for="checkbox 2">Radio 2</label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label for="combo box"><b>Combo Box</b></label>
+            </td>
+            <td>
+                <select id="combo box">
+                <option value="option 1">Option 1</option>
+                <option value="option 2">Option 2</option>
+                <option value="option 3">Option 3</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label for="textarea"><b>Textarea</b></label>
+            </td>
+            <td>
+                <textarea id="textarea" cols="30" rows="3"></textarea>
+            </td>
+            </tr>
+            <tr>
+            <td colspan="2">
+                <table>
+                <tr>
+                    <button type="button">Button</button>
+                    &nbsp;
+                    <button type="submit">Submit</button>
+                    &nbsp;
+                    <button type="reset">Reset</button>
+                </tr>
+                </table>
+            </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+    </html>
+
+<img src="Assets/form.png" alt="Contoh-Form" title="Contoh-Form" width="200">
+
+# Character Entities
+
+Terdapat beberapa character entities pada html, karakter tersebut bisa dilihat pada https://www.w3schools.com/html/html_entities.asp.
