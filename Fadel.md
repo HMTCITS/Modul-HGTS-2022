@@ -559,8 +559,38 @@ Berikut ini contoh pembuatan form yang berisi beberapa input type:
     </body>
     </html>
 
-<img src="Assets/form.png" alt="Contoh-Form" title="Contoh-Form" width="200">
+<img src="Assets/form.png" alt="Contoh-Form" title="Contoh-Form">
 
-# Character Entities
+# Character Entities (Tambahan)
 
 Terdapat beberapa character entities pada html, karakter tersebut bisa dilihat pada https://www.w3schools.com/html/html_entities.asp.
+
+# CSS(35-37)
+
+CSS atau Cascading Style Sheet merupakan format untuk tata letak halaman web. CSS mengatur bagaimana elemen HTML ditampilkan di layar, dengan kata lain CSS mengatur <em>style</em> atau gaya pada halaman website. CSS dapat mengatur warna elemen, ukuran elemen, posisi elemen, dan lain-lain.
+
+### Evolusi CSS
+
+- 1994
+
+<img src="https://www.versionmuseum.com/images/websites/microsoft-website/microsoft-website%5E1994%5Ehomepage.gif" alt="Evolusi-CSS" title="Evolusi-CSS" width="500">
+
+- 2002
+
+<img src="https://www.versionmuseum.com/images/websites/microsoft-website/microsoft-website%5E2002%5Ehomepage.jpg" alt="Evolusi-CSS" title="Evolusi-CSS" width="500">
+
+- 2019
+
+<img src="https://www.versionmuseum.com/images/websites/microsoft-website/microsoft-website%5E2019%5Ehomepage.jpg" alt="Evolusi-CSS" title="Evolusi-CSS" width="500">
+
+Source = https://www.versionmuseum.com/
+
+### Fungsi CSS
+
+- Aturan yang digunakan untuk menampilkan elemen atau tag HTML
+- Dibuat terpisah dengan file HTML
+- Bertujuan untuk memisahkan konten dan style
+
+Satu CSS dapat digunakan untuk banyak halaman HTML
+
+<img src="Assets/CSS.png" alt="Evolusi-CSS" title="Evolusi-CSS" width="500">
