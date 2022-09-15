@@ -105,10 +105,28 @@ Terdapat 5 posisi berbeda
 - absolute
 - fixed
 
-### position: static;
+### position: static
 Secara default, elemen HTML memiliki posisi static. Posisi ini tidak terpengaruh oleh properti top, right, bottom, left.
+
+### position: relative
+
+### position: absolute
+
+### position: fixed
 
 
 # Tailwind (66-69)
+Sebelum berkenalan dengan tailwind, kamu perlu mengetahui istilah <b>framework</b>. 
+Framework merupakan sebuah kerangka kerja yang digunakan untuk mengembangkan website.
+Tailwind css adalah css framework yang menawarkan konsep baru dengan konsep utility first di mana kita tidak perlu lagi memikirkan nama kelas untuk komponen HTMLnya.
 
+### Alasan memilih Tailwind
+1. Kekinian
+2. Lebih sederhana dibandingkan framework CSS lainnya
+3. Responsif
+4. Component-friendly
+5. Didesain untuk disesuaikan
+
+### Cara menginstall Tailwind
+Dokumentasi untuk menginstall tailwind bisa dilihat melalui link berikut ini : [DOKUMENTASI](https://tailwindcss.com/docs/installation)
 
