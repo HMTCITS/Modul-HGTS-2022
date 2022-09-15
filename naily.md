@@ -84,7 +84,31 @@ Terdapat beberapa style pada border, berikut merupakan contohnya:
 - hidden - Border tersembunyi
 
 
+# CSS FLOAT(62)
+Float merupakan properti pada CSS untuk mengatur posisi sebuah elemen. Sebuah elemen dapat dipaksa untuk berada di sebelah kiri atau kanan dari parent/pembungkusnya dengan menggunakan properti ini.
+
+### Text Wrapping
+Membuat teks mengelilingi gambar / elemen lain<br>
+
+### Image Gallery
+Membuat serangkaian gambar menjadi galeri<br>
+
+### Multi-column Layout
+Membuat halaman memiliki beberapa kolom
 
 
+# CSS POSITION (63-65)
+Properti posisi menentukan jenis metode penentuan posisi yang digunakan untuk suatu elemen.
+Terdapat 5 posisi berbeda
+- static
+- relative
+- absolute
+- fixed
+
+### position: static;
+Secara default, elemen HTML memiliki posisi static. Posisi ini tidak terpengaruh oleh properti top, right, bottom, left.
+
+
+# Tailwind (66-69)
 
 
