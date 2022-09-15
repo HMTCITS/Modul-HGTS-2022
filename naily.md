@@ -106,13 +106,18 @@ Terdapat 5 posisi berbeda
 - fixed
 
 ### position: static
-Secara default, elemen HTML memiliki posisi static. Posisi ini tidak terpengaruh oleh properti top, right, bottom, left.
+Value static merupakan nilai default dari position suatu element. Value static akan membuat suatu element bertumpukan.
 
 ### position: relative
+Value relative digunakan untuk membuat suatu element bisa dipindah pindahkan . By default elemen memang tumpukan sebagaimana pada value static, tetapi kita bisa memindahkan elemen tersebut dengan property seperti top , left. Sehingga elemen tersebut akan menindihi layernya elemen lain.
+
 
 ### position: absolute
+Value absolute digunakan untuk membuat suatu elemen bisa dipindahkan dan membuat elemen mengambang ke atas dibanding element lain. Bedanya dengan property relative, pada property absolute layer bawahnya akan bergeser seolah olah berada di bawah layer dengan property relative. 
+
 
 ### position: fixed
+Value fixed digunakan untuk membuat elemen mengambang di antara elemen elemen lain dan juga bisa dipindahkan posisinya. Property ini mirip dengan property absolute. Bedanya dengan property absolute adalah property dengan value fixed posisinya akan tetap berada di posisinya terhadap layar meskin layar page scroll. 
 
 
 # Tailwind (66-69)
