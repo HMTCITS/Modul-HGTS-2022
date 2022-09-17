@@ -6,10 +6,10 @@
         <li>Apple Development</li>
         <li>Web Development</li>
         <ul type="square">
-            <li>Front-End</li>
-            <li>Fullstack</li>
-            <li>Back-End</li>
-            <li>Dev Ops</li>
+            <li>Front-End Developer: Bertugas megatur bagian website yang terlihat oleh user, termasuk UX (User Experience) dan UI (User Interface).</li>
+            <li>Back-End Developer: Bertugas mengatur elemen dibelakang layar, misalnya server database. Back-end developer biasa nya menggunakan bahasa programming server-side seperti PHP, Ruby, Phyton, Java, dll untuk membangun aplikasi dan tools seperti MySQL, Oracle, dan server SQL.</li>
+            <li>Fullstack Developer: Bekerja secara cross-functional yaitu front-end maupun back-end.</li>
+            <li>Dev Ops Engineer: Dev ops sendiri memiliki arti serangkaian praktik yang mengotomatisasi proses antara pengembangan aplikasi dan tim pengembang, hal ini dilakukan agar mereka dapat melakukan proses build, test dan release software lebih cepat dan lebih handal. Salah satu tugas dev ops yaitu melakukan update produk yang kecil dan cepat.</li>
         </ul>
         <li>Android Development</li>
         <li>Games Development</li>
@@ -565,7 +565,7 @@ Berikut ini contoh pembuatan form yang berisi beberapa input type:
 
 Terdapat beberapa character entities pada html, karakter tersebut bisa dilihat pada https://www.w3schools.com/html/html_entities.asp.
 
-# CSS(35-39)
+# CSS(35-42)
 
 CSS atau Cascading Style Sheet merupakan format untuk tata letak halaman web. CSS mengatur bagaimana elemen HTML ditampilkan di layar, dengan kata lain CSS mengatur <em>style</em> atau gaya pada halaman website. CSS dapat mengatur warna elemen, ukuran elemen, posisi elemen, dan lain-lain.
 
