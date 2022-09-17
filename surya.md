@@ -13,10 +13,8 @@ Penambahan CSS pada HTML dengan cara external akan dilakukan dengan mengaitkan f
 
 - isi dari `index.html`
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/111165036/190846434-a24435d8-7538-4e78-81b6-9c2d88753831.png">
-
 - isi dari `style.css`
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/111165036/190846460-311be2bc-0bff-48a4-a48b-d83de33eac41.png">
-
 > Dalam contoh `external` di atas kita mengaitkan file `index.html` kita pada file `style.css` yang berada pada satu folder
 
 ### Font Styling
@@ -44,7 +42,7 @@ Mengatur `ukuran` font. Satuan yang digunakan dalam properti ini adalah px, %, d
 ```
 > Hasil:
 <img width="723" alt="image" src="https://user-images.githubusercontent.com/111165036/190848650-06351787-696f-4cf3-a839-af211f35e3e3.png">
-- Font-Weight <br>
+- Font-Weight
 Mengatur `ketebalan` font. Contoh value yang dapat diisi dalam properti ini adalah lighter, normal, angka 100-900, bold, dan bolder.
 ```
     <p style="font-weight: 700;">
@@ -56,8 +54,7 @@ Mengatur `ketebalan` font. Contoh value yang dapat diisi dalam properti ini adal
 ```
 > Hasil:
 <img width="717" alt="image" src="https://user-images.githubusercontent.com/111165036/190848159-87004e68-6d8f-466d-b003-68e1106c7cab.png">
-
-- Font-Variant <br>
+- Font-Variant
 Mengubah font menjadi `small-caps`. Contoh value dalam properti ini adalah normal dan small-caps
 ```
     <p style="font-variant: small-caps;">
@@ -69,8 +66,7 @@ Mengubah font menjadi `small-caps`. Contoh value dalam properti ini adalah norma
 ```
 > Hasil:
 <img width="703" alt="image" src="https://user-images.githubusercontent.com/111165036/190848246-058a5569-0a79-47b1-b67b-de865cbd8852.png">
-
-- Font-Style <br>
+- Font-Style
 Mengubah font menjadi bercetak `miring`. Contoh value lain yang dapat diisi dalam properti ini adalah normal dan oblique.
 ```
     <p style="font-style: italic;">
@@ -82,8 +78,7 @@ Mengubah font menjadi bercetak `miring`. Contoh value lain yang dapat diisi dala
 ```
 > Hasil:
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/111165036/190848277-c40c2294-779a-4fa1-b50d-93d4d172fcbf.png">
-
-- Line Height <br>
+- Line Height
 Mengatur `spasi` antar baris. Selain ditulis dengan angka, kita dapat juga menggunakan value normal, satuan px, dan satuan em.
 ```
     <p style="line-height: 4;">
@@ -239,15 +234,99 @@ Mengatur jenis pengulangan gambar pada background
 <img width="728" alt="image" src="https://user-images.githubusercontent.com/111165036/190850522-c602f739-009e-46b3-b105-39a0639e4c0d.png">
 
 ### CSS Pseudo Class
+Pseudo-class di CSS digunakan untuk mendefinisikan keadaan khusus dari suatu elemen. Pseudo-class ini dapat ditulis dengan sintaks berikut: `selector:pesudo-class { property: value; }`. Terdapat banyak Pesudo-class, yakni link, hover, active, visited, dll. Contoh:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            background-color: green;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        div:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>Arahkan mouse ke elemen div di bawah ini untuk mengubah warna backgroung:</p>
+    <div>Arahkan mouse padaku</div>
+</body>
+</html>
+```
+>Hasil: Apabila mouse berada di luar area div, maka akan berwarna hijau. Sedangkan, apabila di dalam area div, maka akan berwarna biru
+<img width="732" alt="image" src="https://user-images.githubusercontent.com/111165036/190851375-57765ea9-9712-4653-b36c-27134bca1ff3.png">
+<img width="732" alt="image" src="https://user-images.githubusercontent.com/111165036/190851379-8684efe1-f576-49a4-b2bd-facb636f25e8.png">
+
 
 ### CSS Specificity
+Jika ada dua atau lebih aturan CSS yang bertentangan dan mengarah ke elemen yang sama, browser akan mengikuti beberapa aturan untuk menentukan mana yang paling spesifik.
+
+Spesifikasi bisa di anggap seperti skor/peringkat untuk menentukan style mana yang akan diterapkan ke dalam suatu elemen.
+```
+        h1 {
+            background-color: blue;
+        }
+        h1 {
+            background-color: red;
+        }
+```
+> Hasil: CSS diatas mengatur background-color untuk tag h1 dengan 2 warna yang berbeda. Dalam hal ini browser akan menampilkan background-color berwarna merah
+<img width="728" alt="image" src="https://user-images.githubusercontent.com/111165036/190851502-0faca1d9-8cb5-47d6-8135-5b7de0eb1a9d.png">
 
 ## BASIC LAYOUTING
-
 ### Element Block & Inline
+Setiap tag pada HTML berada di dalam sebuah KOTAK. Properti display pada CSS mengatur perilaku dari kotak tersebut.
+#### Display
+Setiap tag pada HTML berada di dalam sebuah KOTAK. Properti display pada CSS mengatur perilaku dari kotak tersebut. Contoh value dalam properti ini antara lain:
+- inline
+- block
+- inline-block
+- none
+#### Block
+Tag HTML yang berjenis block element akan memisahkan diri dari tag di sekitarnya. Jadi halaman HTML akan menjadi terbagi-bagi, atau menjadi blok. Contoh tag HTML yang  berupa block antara lain:
+- h1-h6
+- p
+- ol
+- ul
+- li
+- dll
+#### Inline
+Kalau tag berjenis inline element, tidak akan membuat blok sendiri, tidak terpisah dari tag di sekitarnya. Tag jenis ini akan menyatu dengan tag yang ada di sekitarnya. Juga, tidak membuat baris baru. Contoh tag HTML yang  berupa inline antara lain:
+- b
+- a
+- button
+- textarea
+- strong
+- dll
 
 ### CSS Dimensi
+Properti di bawah ini digunakan untuk mengatur tinggi dan lebar dari suatu elemen. Contoh:
+- Width
+- Height
+```
+<img src="background_bahan.jpg" alt="" style="width: 400px; height: 200px;">
+```
+> Hasil: gambar `background_bahan.jpg` akan ditampilan dengan lebar 400px dan tinggi 200px, sebagai berikut:
+<img width="731" alt="image" src="https://user-images.githubusercontent.com/111165036/190851901-c0ad3a2a-62b7-4422-b826-bb3da19be2b8.png">
 
 ### CSS Overflow
+Properti ini akan mengontrol apa yang akan terjadi apabila konten berukuran lebih besar dari area yang ada.
+- Visible : default konten akan keluar jika tidak cukup
+- Auto : akan memunculkan scroll jika dibutuhkan
+- Hidden : menyembunyikan konten
+- Scroll : selalu memunculkan scroll meskipun konten cukup
 
 ### CSS Box Model
+Dalam CSS, design dan layouting digambarkan dalam box model
+- Setiap elemen di halaman berada di dalam sebuah box (kotak)
+- Bisa mengatur ukuran dan posisi kotak tersebut
+- Bisa memberi warna / gambar sebagai background kotak tersebut
