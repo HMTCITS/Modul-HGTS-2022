@@ -13,13 +13,15 @@ Penambahan CSS pada HTML dengan cara external akan dilakukan dengan mengaitkan f
 
 - isi dari `index.html`
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/111165036/190846434-a24435d8-7538-4e78-81b6-9c2d88753831.png">
+
 - isi dari `style.css`
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/111165036/190846460-311be2bc-0bff-48a4-a48b-d83de33eac41.png">
+
 > Dalam contoh `external` di atas kita mengaitkan file `index.html` kita pada file `style.css` yang berada pada satu folder
 
 ### Font Styling
 - Font-Family
-Mengatur `jenis` font yang digunakan.
+Mengatur `jenis` font yang digunakan.<br>
 ```
     <p style="font-family: 'Courier New', Courier, monospace;">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quae quod ipsa ipsum expedita, sunt velit veniam odio molestiae aliquam nam mollitia consequatur voluptatum, 
@@ -30,7 +32,8 @@ Mengatur `jenis` font yang digunakan.
 ```
 > Hasil:
 <img width="727" alt="image" src="https://user-images.githubusercontent.com/111165036/190848002-557a35bf-2398-413d-97fa-0902da8152f6.png">
-- Font-Size
+
+- Font-Size <br>
 Mengatur `ukuran` font. Satuan yang digunakan dalam properti ini adalah px, %, dan em.
 ```
     <p style="font-size: large;">
@@ -42,7 +45,8 @@ Mengatur `ukuran` font. Satuan yang digunakan dalam properti ini adalah px, %, d
 ```
 > Hasil:
 <img width="723" alt="image" src="https://user-images.githubusercontent.com/111165036/190848650-06351787-696f-4cf3-a839-af211f35e3e3.png">
-- Font-Weight
+
+- Font-Weight <br>
 Mengatur `ketebalan` font. Contoh value yang dapat diisi dalam properti ini adalah lighter, normal, angka 100-900, bold, dan bolder.
 ```
     <p style="font-weight: 700;">
@@ -54,7 +58,8 @@ Mengatur `ketebalan` font. Contoh value yang dapat diisi dalam properti ini adal
 ```
 > Hasil:
 <img width="717" alt="image" src="https://user-images.githubusercontent.com/111165036/190848159-87004e68-6d8f-466d-b003-68e1106c7cab.png">
-- Font-Variant
+
+- Font-Variant <br>
 Mengubah font menjadi `small-caps`. Contoh value dalam properti ini adalah normal dan small-caps
 ```
     <p style="font-variant: small-caps;">
@@ -66,7 +71,8 @@ Mengubah font menjadi `small-caps`. Contoh value dalam properti ini adalah norma
 ```
 > Hasil:
 <img width="703" alt="image" src="https://user-images.githubusercontent.com/111165036/190848246-058a5569-0a79-47b1-b67b-de865cbd8852.png">
-- Font-Style
+
+- Font-Style<br>
 Mengubah font menjadi bercetak `miring`. Contoh value lain yang dapat diisi dalam properti ini adalah normal dan oblique.
 ```
     <p style="font-style: italic;">
@@ -78,7 +84,8 @@ Mengubah font menjadi bercetak `miring`. Contoh value lain yang dapat diisi dala
 ```
 > Hasil:
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/111165036/190848277-c40c2294-779a-4fa1-b50d-93d4d172fcbf.png">
-- Line Height
+
+- Line Height<br>
 Mengatur `spasi` antar baris. Selain ditulis dengan angka, kita dapat juga menggunakan value normal, satuan px, dan satuan em.
 ```
     <p style="line-height: 4;">
